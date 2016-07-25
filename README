@@ -1,0 +1,8 @@
+A stupid udev mass copier for conference USB keys.
+
+Copy the script where you want it.
+Copy the udev rule in /etc/udev/rules.d (or whereever your distribution puts udev rules). Don't forget to change where the script is and the vendor and product id (lsusb will tell you that)
+
+This is probably completely insecure and can cause a big mess, at least it worked as a quick and dirty hack for my use. Also it runs as root by default, and I'm not responsible for anything that could happen.
+
+Published under the "Do What the Fuck You Want To Public License" WTFPL, www.wtfpl.net

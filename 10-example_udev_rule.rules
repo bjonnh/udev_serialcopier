@@ -1,0 +1,1 @@
+ACTION=="add", ATTRS{idVendor}=="4242", ATTRS{idProduct}=="4242", ENV{PARTN}=="1", RUN+="/somewhere/serial_copier.sh %k $env{ID_SERIAL_SHORT}"
